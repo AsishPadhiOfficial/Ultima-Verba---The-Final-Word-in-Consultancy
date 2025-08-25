@@ -20,7 +20,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 function App() {
   return (
     <ErrorBoundary>
-      <Router basename="/AI-Nexus">
+      <Router>
         <div className="min-h-screen bg-white">
           <ScrollToTop />
           <Header />
